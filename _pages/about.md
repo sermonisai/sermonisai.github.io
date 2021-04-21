@@ -1,7 +1,7 @@
 ---
 title: About Us
-subtitle: Translating code into conversation.
-description: Enterprise-grade intelligent virtual assistants built on state-of-the-art NLP technologies.
+subtitle: This is the perfect theme for developers, designers and other creatives.
+description: Use the Argon Jekyll theme to build a landing page, blog or complete website.
 featured_image: /assets/img/sections/broofoac.jpg
 ---
 
