@@ -1,7 +1,7 @@
 site: Sermonis.AI
 
 url: https://www.sermonis.ai
-baseurl: "/sermonisai.github.io"
+baseurl: ""
 
 collections:
   pages:
