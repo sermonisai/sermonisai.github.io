@@ -7,19 +7,19 @@ featured_image: /assets/img/social.jpg
 
 <!--Replace this page with your landing page content -->
 {% if site.data.settings.home_settings.theme == "landing" %}
-  {% include home-sample.html %}
+  {% include home.html %}
   <div class="features-7 fullWidth contentWrapper">
     <div class="container mb-2">
     <div class="row">
-        <!-- <div class="col-md-8 text-center mx-auto">
+        <div class="col-md-8 text-center mx-auto">
             <h3 class="display-2">Blog</h3>
             <p class="lead pb-5">The latest posts from our blog</p>
-        </div> -->
+        </div>
     </div>
     
     </div>
   </div>
-  <!-- {% include blogsHome.html %} -->
+  {% include blogsHome.html %}
 {% endif %}
 
 {% if site.data.settings.home_settings.theme == "blog" %}

@@ -21,7 +21,7 @@ blog_settings:
     # basic – a simple list of posts
     # narrow – a masonary grid of posts
     # grid – a full-width square grid of posts
-  theme: basic
+  theme: narrow
   # Should we display a narrow grid of other posts at the bottom of each blog post?
   read_more: "no"
 
@@ -40,15 +40,17 @@ menu_settings:
       # - title: Blog
       #   url: /blog
       #   icon: ni-books text-primary
-    # - title: 'Features'
-    #   url: '/features'     
-    # - title: Pricing
-    #   url: /pricing        
-    # - title: 'Blog'
-    #   submenu_items:
-    #   - title: Blog
-    #     url: /blog
-    #     icon: ni-books text-primary
+      # - title: 'Features'
+      #   url: '/features'
+    - title: 'Use Cases'
+      url: '/use_cases'     
+    - title: Pricing
+      url: /pricing        
+    - title: 'Blog'
+      submenu_items:
+      - title: Blog
+        url: /blog
+        icon: ni-books text-primary
     #   - title: Narrow Grid Example
     #     url: /blog-narrow-example
     #     icon: ni-align-center text-success
@@ -58,8 +60,8 @@ menu_settings:
     #   - title: List Example
     #     url: /blog-list-example
     #     icon: ni-bullet-list-67 text-default    
-    # - title: 'About'
-    #   url: '/about'
+    - title: 'About'
+      url: '/about'
     - title: 'Contact'
       url: '/contact'
 
@@ -83,19 +85,22 @@ social_settings:
   dribbble_url: ''
   behance_url: ''
   github_url: 'https://www.github.com/sermonisai'
-  reddit_url: 'https://www.reddit.com/r/sermonisai'
+  reddit_url: ''
   linkedin_url: 'https://www.linkedin.com/company/sermonis-ai'
 
-# authors:
-#   tom:
-#     name: Tom
-#     picture: /assets/img/faces/team-1.jpg
-#   jane:
-#     name: Jane
-#     picture: /assets/img/faces/team-4.jpg
-#   michael:
-#     name: Michael
-#     picture: /assets/img/faces/michael.jpg
+authors:
+  Akinwande:
+    name: Akinwande Lalude
+    picture: /assets/img/faces/team-1.jpg
+  Alexandra:
+    name: Alexandra Frank 
+    picture: /assets/img/faces/team-4.jpg
+  Devin:
+    name: Devin Hollier 
+    picture: /assets/img/faces/michael.jpg
+  Ebenge:
+    name: Ebenge Usip
+    picture: /assets/img/faces/michael.jpg
 
 advanced_settings:
   analytics_code: 
